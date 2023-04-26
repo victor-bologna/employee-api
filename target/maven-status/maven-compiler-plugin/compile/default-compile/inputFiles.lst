@@ -1,0 +1,17 @@
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\config\DatabaseConfig.java
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\domain\request\EmployeeRequest.java
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\domain\repository\EmployeeRepository.java
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\QuotationManagementApplication.java
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\domain\response\ErrorResponse.java
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\domain\vo\EmployeeRequestVo.java
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\controller\ExceptionControllerAdvice.java
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\domain\service\impl\EmployeeServiceImpl.java
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\domain\service\EmployeeService.java
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\repository\EmployeeRepositoryImpl.java
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\domain\exception\EmployeeNotFoundException.java
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\controller\EmployeeController.java
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\domain\vo\EmployeeResponseVo.java
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\domain\response\EmployeeResponse.java
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\config\OpenApiConfig.java
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\domain\entity\Employee.java
+C:\Users\Victor\Documents\Pessoal\Desenvolvimentos Pessoais\Entrevistas\employee-api\src\main\java\com\api\quotationmanagement\domain\mapper\EmployeeMapper.java

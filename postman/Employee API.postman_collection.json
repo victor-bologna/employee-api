@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "1eb65827-c54c-4c99-9562-741d8903db44",
+		"name": "Employee API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11173876"
+	},
+	"item": [
+		{
+			"name": "Create Employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Pedrinho Cipolinho\",\r\n  \"role\": \"Canaltech\",\r\n  \"salary\": 2400,\r\n  \"telephone\": \"+55 (11) 9 4444-6040\",\r\n  \"address\": \"Rua Santo Andre, 234 - Jardim Triangulo - Piracicaba - SP\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{localhost}}/employee",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"employee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Employee",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Pedrinho Cipolinho\",\r\n  \"role\": \"Escolha Segura\",\r\n  \"salary\": 2400,\r\n  \"telephone\": \"+55 (11) 9 4444-6040\",\r\n  \"address\": \"Rua Santo Andre, 234 - Jardim Triangulo - Piracicaba - SP\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{localhost}}/employee/2",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"employee",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read Employee by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/employee/1",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"employee",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Employees",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json;**charset=UTF-8**"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{localhost}}/allEmployees",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"allEmployees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Employee",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/employee/1",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"employee",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Doc API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/v3/api-docs",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"v3",
+						"api-docs"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "localhost",
+			"value": "http://localhost:8081",
+			"type": "string"
+		}
+	]
+}
